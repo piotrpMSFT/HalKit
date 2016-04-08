@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "Newtonsoft.Json": "7.0.1",
+    "Tavis.UriTemplates": "1.0.0"
+  },
+  "frameworks": {
+    "netstandard1.5": {
+      "dependencies": {
+        "NETStandard.Library": "1.5.0-rc2-24008",
+        "System.Runtime.Serialization.Primitives": "4.1.0-rc2-23902"
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    },
+    "net451": {}
+  }
+}

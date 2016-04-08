@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "dependencies": {
+    "HalKit": "1.0.0",
+    "moq.netcore": "4.4.0-beta8",
+    "Newtonsoft.Json": "7.0.1"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "dotnet-test-xunit": "1.0.0-dev-128011-22",
+        "Microsoft.NETCore.App": "1.0.0-rc2-24008-00",
+        "System.Net.Http": "4.0.1-rc2-24008",
+        "xunit": "2.1.0"
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8",
+        "netstandardapp1.5"
+      ]
+    }
+  },
+  "testRunner": "xunit"
+}
